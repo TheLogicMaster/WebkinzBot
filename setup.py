@@ -13,6 +13,9 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/TheLogicMaster/WebkinzBot",
     packages=setuptools.find_packages(),
+    install_requires=[
+          'opencv-python', 'pynput', 'numpy', 'colormath', 'pyscreenshot', 'pyautogui', 'Pillow'
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
